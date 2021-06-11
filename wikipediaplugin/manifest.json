@@ -1,0 +1,13 @@
+{
+    "name" : "demo",
+    "version" : "0.0.1",
+     "description" : "Similar Content Retrieval From Wikipedia Citation",
+     "permissions": ["activeTab", "declarativeContent", "storage", "tabs","http://127.0.0.1:5000/"],
+     "manifest_version" : 2,
+     "browser_action" : {
+         "default_popup" : "demo.html",
+         "default_icon" :"logo.png"
+     }
+
+
+}
